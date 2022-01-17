@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2595553216203209784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7088940040128654389}
+  - component: {fileID: 6047494293977856445}
+  m_Layer: 0
+  m_Name: PlayControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7088940040128654389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2595553216203209784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6047494293977856445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2595553216203209784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afc8910df8c046840bf846978b08706f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onHandCards:
+  - {fileID: 7559043492440775197, guid: 279aa796a4d365c4cb1eb984929cacfc, type: 3}
+  - {fileID: 5463659464987601772, guid: e9fd12cf884665b47a1130c4cf4274ec, type: 3}
+  - {fileID: 159210860681945533, guid: c56e13ff7ddb9614cabc367749a9ffcd, type: 3}
+  - {fileID: 8858555984207602726, guid: c703cb9b34cd83a4fbaf452cfd1d8010, type: 3}
+  - {fileID: 8858555984207602726, guid: c703cb9b34cd83a4fbaf452cfd1d8010, type: 3}
+  - {fileID: 5086638692738610492, guid: 5bf2f9e3a58c58e4a8876970458ea661, type: 3}
+  - {fileID: 2382302209081883497, guid: 946a08532de498741b02aba00d400c52, type: 3}
+  - {fileID: 8858555984207602726, guid: c703cb9b34cd83a4fbaf452cfd1d8010, type: 3}
+  - {fileID: 2783252882170294782, guid: 9f9ffbe70e6b38342b892d74fb39eaf8, type: 3}
+  - {fileID: 957446064206452370, guid: 770a3afc2dd3a7e4582d37d48fad872c, type: 3}
+  - {fileID: 975816581500912781, guid: 6a03bfb9f74248f48b1592e32f18ce49, type: 3}
+  - {fileID: 5721509904061244673, guid: d6f419bf88e0dd94e8ab008d016d52c7, type: 3}
+  startPosX: 0
+  startPosY: 1
+  startPosZ: -11
+  sendingCardsList: 030000000400000007000000
+  keepingCardsList: 000000000100000002000000050000000600000008000000090000000a0000000b000000
+  onHandCardsTotal: 12
+  cardsPosUpdatedCount: 0
+  isSendingCards: 0
+  isAdjustKeepingCards: 1
+  isDestroyCards: 0
